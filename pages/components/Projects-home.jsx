@@ -11,7 +11,7 @@ import aqgcleaning from '/public/assests/projects/project-8.png';
 import surgiforge from '/public/assests/projects/project-9.png';
 import yourEars from '/public/assests/projects/project-10.png';
 import atomicSkills from '/public/assests/projects/project-11.png';
-import velocityHaulers from '/public/assests/projects/project-12.png';
+import velocityHaulers from '/./public/assests/projects/project-12.png';
 import ProjectItem from './Projectitem';
 
 import Link from 'next/Link';

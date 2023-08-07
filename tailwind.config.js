@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'spooky': "url('../public/assests/Main-home.jpg')",
+        'spooky': "url('../public/assests/slider_shape_4.png')",
         'aboutsection': "url('../public/assests/about-bg.jpg')",
       }
 

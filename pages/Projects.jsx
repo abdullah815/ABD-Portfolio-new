@@ -17,8 +17,6 @@ import ziaTrading from '/public/assests/projects/project-14.png';
 import ProjectItem from './components/Projectitem';
 
 
-import Link from 'next/Link';
-
 const Projects = () => {
   return (
     <div id='projects' className='w-full pt-20 pb-5'>

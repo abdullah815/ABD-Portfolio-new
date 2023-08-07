@@ -11,6 +11,25 @@ body{background-color: #000000 !important;-webkit-font-smoothing: antialiased;ov
 
 #about-image{animation: up-down 2s ease-in-out infinite alternate-reverse both;}
 
+#shape-box{animation: spin 10s infinite linear;
+  -webkit-animation: spin 10s infinite linear;z-index: 1;}
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  #shape-box:hover {
+    animation-name: spin;
+    animation-duration: 6ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;;
+}
+
 @media only screen and (max-width: 767px){
   #main-screen-project-details{padding-top: 18em;}
   #main-2{padding-top:8em;padding-bottom: 5em;}
