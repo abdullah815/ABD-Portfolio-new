@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/components/Main.js", "pages/components/Main.js", "pages/components/Main.js", "pages/components/Main.js"  ],
+, "pages/components/Main.js", "pages/components/Main.js", "pages/components/Main.js", "pages/components/Main.js", "pages/components/Main.jsx", "pages/index.js"  ],
   "exclude": [
     "node_modules"
   ]
